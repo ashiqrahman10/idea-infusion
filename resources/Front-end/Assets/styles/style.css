@@ -58,7 +58,7 @@ input:focus {
     color: #fff;
     background-color: rgb(71, 70, 70);
     border-radius: 20px;
-    padding: 10px;
+    padding: 10px 20px;
     font: 1.15rem 'poppins';
     border: none;
     cursor: pointer;
@@ -100,7 +100,7 @@ button{
     color: #fff;
     background-color: rgb(71, 70, 70);
     border-radius: 20px;
-    padding: 10px;
+    padding: 10px 20px;
     font: 1.15rem sans-serif;
     border: none;
     cursor: pointer;
