@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
+/* @font-face {
+    font-family: 'oggroman';
+    src: url('../../../../../webfontkit-20231108-074128/ogg-roman-webfont.woff2') format('woff2'),
+         url('../../../../../webfontkit-20231108-074128/') format('woff');
+    font-weight: normal;
+    font-style: normal;
+} */
+
+
 /* *{
     border: 1px solid black;
 } */
@@ -28,7 +37,7 @@ body {
     font-style: normal;
     font-weight: 300;
     line-height: normal;
-    margin-left: 910px;
+    margin-left: 902px;
 }
 
 #e{
@@ -86,7 +95,7 @@ body {
 
 .browse {
     color: #000;
-    font-family: Ogg Text TRIAL;
+    font-family: 'oggroman';
     font-size: 52px;
     font-style: normal;
     font-weight: 300;
@@ -101,9 +110,10 @@ body {
     height: 377px;
     justify-content: flex-start;
     align-items: center;
-    gap: 60px;
+    gap: 70px;
     margin-top: 30px;
     overflow: hidden;
+    padding-top: 60px;
 }
 .blog1 {
     display: flex;
@@ -118,7 +128,10 @@ body {
     font-style: normal;
     font-weight: 300;
     line-height: normal;
-    padding: 14px;
+    padding-left: 25px;
+    padding-top: 14px;
+    padding-right: 25px;
+    padding-bottom: 14px;
 }
 
 .binner {
@@ -146,7 +159,7 @@ body {
 
 .buttons {
     display: inline-flex;
-    margin-top: 56px;
+    margin-top: 80px;
     gap: 1082px;
 }
 
@@ -163,4 +176,55 @@ body {
     font-style: normal;
     font-weight: 300;
     line-height: normal;
+}
+
+.categories {
+    width: 100%;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+    overflow: hidden;
+}
+
+.t1 {
+    color: #000;
+    font-family: Ogg Text TRIAL;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.cat1 {
+    display: flex;
+    flex-direction: row;
+    gap: 192px;
+    overflow: hidden;
+}
+
+.cat1 .blog1 {
+    width: 540px;
+    height: 338px;
+    align-items: center;
+    justify-content: center;
+}
+
+.cat1 .blog1 .binner {
+    width: 100%;
+    height: 95%;
+}
+
+#bpic {
+    width: 100%;
+}
+
+.bcaption {
+    color: #000;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-top: 10px;
 }
