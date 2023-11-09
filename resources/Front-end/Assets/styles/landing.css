@@ -9,9 +9,9 @@
 } */
 
 
-/* *{
+*{
     border: 1px solid black;
-} */
+}
 
 body {
     /* background: #FFF; */
@@ -227,4 +227,73 @@ body {
     font-weight: 300;
     line-height: normal;
     margin-top: 10px;
+}
+
+.creators {
+    margin-top: 240px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.cframe {
+    width: 95vw;
+    display: flex;
+    height: 377px;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 70px;
+    margin-top: 30px;
+    overflow: hidden;
+}
+
+.cframe .blog1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 291px;
+    height: 100%;
+    background: #D9E4E8;
+    color: #000;    
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    padding-left: 25px;
+    padding-top: 14px;
+    padding-right: 25px;
+    padding-bottom: 14px;
+}
+
+.cframe .blog1 .binner {
+    width: 18vw;
+    margin-top: 14px;
+    height: 80%;
+}
+
+.cframe .blog1 .binner #bcover {
+    width: 100%;
+    height: 90%;
+}
+
+.cframe .blog1 .bname {
+    align-self: first baseline;
+    margin-left: 10px;
+}
+
+#back2,#next2 {
+    border: none;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    cursor: pointer;
+    color: #000;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
 }
